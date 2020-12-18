@@ -3,7 +3,6 @@ using System;
 var person = new Person("John");
 Console.WriteLine($"{person.GetNameToLower()} - {person.GetNameToUpper()}");
 
-
 partial class Person : IPerson
 {
     public string GetNameToLower() => Name.ToLower();
